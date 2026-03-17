@@ -1,6 +1,4 @@
-# java-example-nag-jar
-
-## This is the source code for building jar application
+# java-example-nag-jar   --> This is the source code for building jar application
 
 
 # 📦 Simple Spring Boot Application (Java 21+)
