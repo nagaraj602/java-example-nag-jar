@@ -223,6 +223,8 @@ spec:
 
 ```bash
 mvn clean install
+```
+```bash
 java -jar target/java-example-demo-1.0.0.jar
 ```
 
