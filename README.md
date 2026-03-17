@@ -226,6 +226,16 @@ mvn clean install
 java -jar target/java-example-demo-1.0.0.jar
 ```
 
+## Build using Gradle
+```bash
+gradle clean build
+```
+
+Run the JAR
+```bash
+java -jar build/libs/java-example-demo-1.0.0.jar
+```
+
 ## Build Docker Image
 
 ```bash
