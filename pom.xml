@@ -34,12 +34,19 @@
         </dependency>
     </dependencies>
 
-    <build>
-         <finalName>java-example-demo-1.0.0</finalName>
+         <build>
+             <finalName>java-example-demo-1.0.0</finalName>
              <plugins>
                  <plugin>
                      <groupId>org.springframework.boot</groupId>
                      <artifactId>spring-boot-maven-plugin</artifactId>
+                     <executions>
+                         <execution>
+                             <goals>
+                                 <goal>repackage</goal>
+                             </goals>
+                         </execution>
+                     </executions>
                  </plugin>
              </plugins>
          </build>
