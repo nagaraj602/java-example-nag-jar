@@ -256,9 +256,3 @@ Hello, Spring Boot is running on port 8085!
 
 ---
 
-If you want next step, I can help you:
-
-* Add CI/CD using Jenkins
-* Push Docker image automatically
-* Deploy to Kubernetes cluster step-by-step
-
