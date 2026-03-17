@@ -259,7 +259,7 @@ kubectl apply -f k8s-deployment.yaml
 Open browser:
 
 ```
-http://localhost:8085
+http://<server_IP>:8085
 ```
 
 You should see:
