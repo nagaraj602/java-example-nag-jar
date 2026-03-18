@@ -24,7 +24,7 @@ public class DemoApplication {
             System.out.println("\n🔥 You can access the application with: http://" + publicIp + ":8085\n");
 
         } catch (Exception e) {
-            System.out.println("Unable to fetch public IP");
+            System.out.println("Unable to fetch public IP. You can access application in your browser with: http://<server_IP>:8085");
         }
     }
 
