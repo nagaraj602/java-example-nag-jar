@@ -21,10 +21,10 @@ public class DemoApplication {
                     new InputStreamReader(new URL("http://checkip.amazonaws.com").openStream())
             ).readLine();
 
-            System.out.println("\n🔥 You can access the application with: http://" + publicIp + ":8085\n");
+            System.out.println("\n🔥🚀 You can access the application with: http://" + publicIp + ":8085 🚀\n");
 
         } catch (Exception e) {
-            System.out.println("Unable to fetch public IP. You can access application in your browser with: http://<server_IP>:8085");
+            System.out.println("⚠️🚀Unable to fetch public IP. You can access application in your browser with: http://<server_IP>:8085 🚀");
         }
     }
 
